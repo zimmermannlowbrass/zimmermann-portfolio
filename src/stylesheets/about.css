@@ -1,0 +1,23 @@
+.about-container {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(4, 81, 81);
+    color: rgba(245, 245, 245, 0.664);
+    box-shadow: 10px 10px 5px black;
+    margin: 50px;
+
+}
+
+.about-content {
+    width: 100%;
+    text-align: center;
+    box-shadow: 10px 5px 5px 5px var(--color-primary-variant);
+    border-radius: 1.2rem;
+    border: 1px solid transparent;
+}
+
+.about-content p {
+    margin: 2rem 0;
+    font-weight: 500;
+}
