@@ -17,6 +17,7 @@ function Portfolio() {
 
     const allProjects = sortedProjects.map((project) => (
         <SwiperSlide
+        style={{display:'flex'}}
         key={project.id}>
         <ProjectCard
             key={project.id}

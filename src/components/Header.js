@@ -6,10 +6,11 @@ import "../stylesheets/header.css"
 function Header() {
     return (
         <header>
-            <div className="container header__container">
+            <div className="header__container">
                 <h3>Welcome! My name is </h3>
                 <h1 className="profile-name">James Aidan Zimmermann</h1>
-                <h3 className="text-light">a Software Engineer</h3>
+                <h3>and this is my website!</h3>
+                <br/>
                 {/* <CTA />
                 <HeaderSocials /> */}
                 <div className="my-photo-container">

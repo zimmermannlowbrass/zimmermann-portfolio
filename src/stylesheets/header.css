@@ -3,8 +3,17 @@
     width: 600px;
     border-radius: 25px;
     box-shadow: -4px 3px 15px 17px rgba(194,194,194,1);
-  }
-  
-  .profile-name {
-    color: blanchedalmond;
-  }
+}
+
+.profile-name {
+  color: rgb(2, 69, 9);
+}
+
+.header__container {
+  color: black;
+  font-weight: 600;
+}
+
+.profile-name {
+  font-size: 80px;
+}

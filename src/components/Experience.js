@@ -3,7 +3,7 @@ import {AiOutlineConsoleSql, AiFillHtml5} from "react-icons/ai"
 import {DiJavascript1, DiPython, DiCss3, DiReact, DiPostgresql} from "react-icons/di"
 import {TbFlask} from "react-icons/tb"
 import {SiSqlite,
-  SiGithubactions, SiTerraform, SiRender} from "react-icons/si"
+  SiGithubactions, SiRender, SiGooglemaps, SiMta} from "react-icons/si"
 import {FiTarget} from "react-icons/fi"
 import { SiRedux } from "react-icons/si";
 import {FaDocker} from 'react-icons/fa'
@@ -125,15 +125,21 @@ function Experience() {
                 </div>
               </article>
               <article className="experience__details">
-                <SiTerraform className="experience__details-icon" />
+                <SiMta className="experience__details-icon" />
                 <div>
-                  <p>Terraform</p>
+                  <p>MTA</p>
                 </div>
               </article>
               <article className="experience__details">
                 <SiRender className="experience__details-icon" />
                 <div>
                   <p>Render</p>
+                </div>
+              </article>
+              <article className="experience__details">
+                <SiGooglemaps className="experience__details-icon" />
+                <div>
+                  <p>Google Maps</p>
                 </div>
               </article>
             </div>

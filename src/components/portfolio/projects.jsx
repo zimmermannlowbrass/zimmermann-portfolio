@@ -1,14 +1,14 @@
-// import IMG1 from "../../assets/wufr.jpeg"
-// import IMG2 from "../../assets/brewery-taplist.jpeg"
-// import IMG3 from "../../assets/band-locker-cli.png"
-// import IMG4 from "../../assets/myTunes.png"
-// import IMG5 from "../../assets/craftsy.png"
+import IMG1 from "../../images/Brewery-Snob-Quiz.png"
+import IMG2 from "../../images/Diner-Website.png"
+import IMG3 from "../../images/Diner-Dash.png"
+import IMG4 from "../../images/Well-Played.png"
+import IMG5 from "../../images/I-heart-MTA.png"
 
 const projects = [
     
 {
     id: 1,
-    // image: IMG1,
+    image: IMG1,
     title: "Brewery Snob Quiz",
     technical: "JavaScript",
     description: "How well do you know the breweries in your hometown?",
@@ -20,7 +20,7 @@ const projects = [
 
 {
     id: 2,
-    // image: IMG2,
+    image: IMG2,
     title: "The New West Taghkonic Website",
     technical: "React, UI Semantic",
     description: "The best diner in the Hudson Valley gets a new look",
@@ -31,7 +31,7 @@ const projects = [
 },
 {
     id: 3,
-    // image: IMG3,
+    image: IMG3,
     title: "The West Taghkonic Adventure Game",
     technical: "Python3, SQLAlchemy, Alembic",
     description: "Seat the customers, take their orders, and DON'T GET STRESSED!",
@@ -42,7 +42,7 @@ const projects = [
 },
 {
     id: 4,
-    // image: IMG4,
+    image: IMG4,
     title: "Well-Played",
     technical: "Flask, React, PostgreSQL",
     description: "Playground lovers find new playgrounds in their area",
@@ -53,7 +53,7 @@ const projects = [
 },
 {
     id: 5,
-    // image: IMG5,
+    image: IMG5,
     title: "I <3 MTA",
     technical: "Flask, React, Redux, PostgreSQL",
     description: "Track your subway trips and create your own personal subway map!",
