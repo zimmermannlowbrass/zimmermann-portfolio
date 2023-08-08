@@ -1,10 +1,11 @@
 import React from "react";
 import {AiOutlineConsoleSql, AiFillHtml5} from "react-icons/ai"
-import {DiJavascript1, DiPython, DiCss3, DiSass, DiReact, DiPostgresql} from "react-icons/di"
+import {DiJavascript1, DiPython, DiCss3, DiReact, DiPostgresql} from "react-icons/di"
 import {TbFlask} from "react-icons/tb"
-import {SiSqlite, SiSemanticuireact, SiTailwindcss, SiYaml, SiHcl, 
-  SiGithubactions, SiKubernetes, SiAnsible, SiTerraform, SiJenkins, SiRender} from "react-icons/si"
+import {SiSqlite,
+  SiGithubactions, SiTerraform, SiRender} from "react-icons/si"
 import {FiTarget} from "react-icons/fi"
+import { SiRedux } from "react-icons/si";
 import {FaDocker} from 'react-icons/fa'
 import {PiFileSqlFill} from 'react-icons/pi'
 import {BsGit} from 'react-icons/bs'
@@ -17,7 +18,7 @@ function Experience() {
         <h5>What Skills I Have</h5>
         <h2>Languages, Frameworks, & Tools</h2>
         
-        <div className="container experience__container">
+        <div className="experience__container">
           <div className="experience__languages">
             <h3>Languages</h3>
             <div className="experience__content">
@@ -37,18 +38,6 @@ function Experience() {
                 <AiOutlineConsoleSql className="experience__details-icon" />
                 <div>
                   <p>SQL</p>
-                </div>
-              </article>
-              <article className="experience__details">
-                <SiYaml className="experience__details-icon" />
-                <div>
-                  <p>YAML</p>
-                </div>
-              </article>
-              <article className="experience__details">
-                <SiHcl className="experience__details-icon" />
-                <div>
-                  <p>HCL</p>
                 </div>
               </article>
               <article className="experience__details">
@@ -100,21 +89,9 @@ function Experience() {
                 </div>
               </article>
               <article className="experience__details">
-                <SiTailwindcss className="experience__details-icon" />
+                <SiRedux className="experience__details-icon" />
                 <div>
-                  <p>Tailwind</p>
-                </div>
-              </article>
-              <article className="experience__details">
-                <DiSass className="experience__details-icon" />
-                <div>
-                  <p>Sass</p>
-                </div>
-              </article>
-              <article className="experience__details">
-                <SiSemanticuireact className="experience__details-icon" />
-                <div>
-                  <p>Semantic-UI</p>
+                  <p>Redux</p>
                 </div>
               </article>
             </div>
@@ -148,27 +125,9 @@ function Experience() {
                 </div>
               </article>
               <article className="experience__details">
-                <SiKubernetes className="experience__details-icon" />
-                <div>
-                  <p>Kubernetes</p>
-                </div>
-              </article>
-              <article className="experience__details">
-                <SiAnsible className="experience__details-icon" />
-                <div>
-                  <p>Ansible</p>
-                </div>
-              </article>
-              <article className="experience__details">
                 <SiTerraform className="experience__details-icon" />
                 <div>
                   <p>Terraform</p>
-                </div>
-              </article>
-              <article className="experience__details">
-                <SiJenkins className="experience__details-icon" />
-                <div>
-                  <p>Jenkins</p>
                 </div>
               </article>
               <article className="experience__details">

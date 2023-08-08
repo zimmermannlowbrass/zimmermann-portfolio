@@ -5,12 +5,12 @@
 }
 
 .experience__container > div {
-    background: var(--color-bg-variant);
-    padding: 2.5rem;
+    background-color: rgb(20, 116, 116);
+    padding: 1rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
-    box-shadow: 10px 5px 5px 5px var(--color-primary-variant);
+    box-shadow: 10px 5px 5px 5px rgb(210, 255, 212);
 }
 
 .experience__container > div h3 {
@@ -32,8 +32,8 @@
 }
 
 .experience__details-icon {
-    font-size: 1.5rem;
-    color: var(--color-primary);
+    font-size: 2rem;
+    color: rgba(245, 245, 245, 0.664);
 }
 
 .experience__tools {

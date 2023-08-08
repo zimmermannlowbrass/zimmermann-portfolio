@@ -11,33 +11,36 @@ function About() {
 
   return (
     <section id="about">
-      <h5>Get To Know</h5>
-      <h2>About Me</h2>
+      <h2>My Story</h2>
 
       <div className="about-container">
 
         <div className="about-content">
 
         <h5>Full-stack Software Engineer with extensive background in education and web-development. 
-        Dedicated to crafting solutions and driven by an appreciation for details.</h5> 
-        <p>I thrive in collaborative environments and actively engage with peers to develop innovative ideas. 
-        I embrace new technologies in the pursuit of lifelong learning. 
-        Seeking opportunities in front-end, back-end, or full-stack web development.
+        Seeking opportunities to contribute and develop my skills in a challenging environment. </h5> 
+        <p>
+            As an alumni of the Yale School of Music, I understand the importance of detail-oriented work
+            as well as the purusit of perfection. I thrive in a fast-paced, highly engaging work enviroment filled with collaberation, 
+            and I embrace all opportunities with an eagerness to learn.
+            Seeking opportunities in front-end, back-end, or full-stack web development.
         </p>
         <div className="see-more">
         <button className="see-more-btn" onClick={handleClick}>{readMore? "Read less..." : "Read more..."}</button>
         </div>
         {readMore ?
         <div>
-          <p>I value working in a dynamic industry where continually developing skill sets is essential and where there is always something to learn. 
-          I spent the past eight years working in public education as a high school band teacher. Through this experience, 
-          I developed strong communication skills, learned to collaborate and problem-solve with a variety of stakeholders, 
-          and constantly modeled leadership. I am incredibly detail-oriented thanks to years of honing my craft as a flute player 
-          and helping students refine their musical skills. Being an educator also taught me to balance my detail-oriented nature with time 
-          constraints and to be extremely efficient.</p>
-          <p>When I'm not coding, you'll find me spending time with my wife, Chloe, our toddler, Hazel, and our two dogs, Wyatt and Bella.
+          <p>
+                Having graduated into the COVID19 pandemic, I struggled to puruse my dream of becoming a fulltime performing musician. 
+                Instead, I chose to puruse a career as a freelance music educator.
+                Here, I developed the strong communication skills and personal responsibility skills necessary for success running a self-employed buisness. 
+                Being an educator also taught me to balance my instincts toward perfection with time 
+                constraints and to be extremely efficient.
+          </p>
+          <p>
+            When I'm not coding, you'll find me spending time with my wife, Chloe, our toddler, Hazel, and our two dogs, Wyatt and Bella.
             Together, we enjoy visiting new playgrounds, going to museums, and attending live-performances.
-          We are thrilled to be back in NYC, the best city in the world!
+            We are thrilled to be back in NYC, the best city in the world!
           </p>
           </div> : null}
         <div className="btn-wrapper">
