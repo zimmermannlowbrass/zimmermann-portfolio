@@ -29,17 +29,16 @@ function Portfolio() {
 
     return (
         <section id="portfolio">
-        <h5>My Recent Work</h5>
-        <h2>Portfolio</h2>
-        <div className="container portfolio__container">
-        <Swiper
-            spaceBetween={10}
-            slidesPerView={1}
-            modules={[Navigation, Pagination]}
-            navigation={{draggable: true}}>
-            {allProjects}
-        </Swiper>
-        </div>
+            <h2>Portfolio</h2>
+            <div className="container portfolio__container">
+                <Swiper
+                    spaceBetween={10}
+                    slidesPerView={1}
+                    modules={[Navigation, Pagination]}
+                    navigation={{draggable: true}}>
+                    {allProjects}
+                </Swiper>
+            </div>
         </section>
     )
 }

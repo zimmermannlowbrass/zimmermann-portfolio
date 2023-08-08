@@ -5,10 +5,10 @@ body {
     sans-serif;
   color: whitesmoke;
   background-image: url("images/Tivoli.jpg");
-  /* background-repeat: no-repeat;
-  background-size: cover; */
-  background-repeat:repeat-x;
-  background-attachment:fixed;
+  /* background-repeat: no-repeat; */
+  background-size: cover; 
+  /* background-repeat:repeat-x;
+  background-attachment:fixed; */
     /* background-position: left top; */
 
   box-sizing: border-box;
@@ -42,6 +42,9 @@ code {
 }
 
 
+html {
+  scroll-behavior: smooth;
+}
 
 
 h1 {
@@ -63,4 +66,21 @@ h4 {
 h5 {
   font-size: 1.25rem;
 }
+section {
+  margin-top: 4rem;
+}
 
+
+
+@media screen and (max-width: 600px) {
+  .container {
+      width: var(--container-width-sm);
+  }
+  section > h2 {
+      margin-bottom: 2rem;
+  }
+  :root {
+      --swiper-navigation-size: 20px;
+      text-align: center;
+  }
+}

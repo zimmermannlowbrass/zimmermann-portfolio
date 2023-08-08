@@ -9,7 +9,7 @@ function Header() {
             <div className="header__container">
                 <h3>Welcome! My name is </h3>
                 <h1 className="profile-name">James Aidan Zimmermann</h1>
-                <h3>and this is my website!</h3>
+                <h3>and I am a software engineer</h3>
                 <br/>
                 {/* <CTA />
                 <HeaderSocials /> */}

@@ -4,15 +4,16 @@
     margin-right: auto;
     background-color: rgb(20, 116, 116);
     color: rgba(245, 245, 245, 0.664);
-    box-shadow: 10px 10px 5px black;
+    box-shadow: 10px 5px 5px 5px rgb(210, 255, 212);
     margin: 50px;
+    border-radius: 1rem;
 
 }
 
 .about-content {
+    padding: 1rem;
     width: 100%;
     text-align: center;
-    box-shadow: 10px 5px 5px 5px;
     border-radius: 1.2rem;
     border: 1px solid transparent;
 }
@@ -27,11 +28,36 @@
 }
 
 .see-more-btn {
-    background: none;
-    border: none;
-    color: inherit;
+    background-color: rgb(8, 63, 63);
+    border-radius: 12px;
+    
+    box-shadow: transparent 0 0 0 3px,rgba(255, 255, 255, 0.1) 0 6px 20px;
+    box-sizing: border-box;
+    color: #e7e7e7;
     cursor: pointer;
-    font: inherit;
-    outline: inherit;
-    padding: 0;
+    display: inline-flex;
+    flex: 1 1 auto;
+    font-family: Inter,sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1;
+    margin: 0;
+    outline: none;
+    padding: 1rem 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s,-webkit-box-shadow .2s;
+    white-space: nowrap;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
+
+
+.see-more-btn:hover {
+  box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+}
+
+

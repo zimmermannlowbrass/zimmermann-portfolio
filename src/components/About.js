@@ -3,7 +3,7 @@ import React, {useState } from "react";
 import "../stylesheets/about.css"
 
 function About() {
-    const [readMore, setReadMore] = useState(false)
+  const [readMore, setReadMore] = useState(false)
 
   function handleClick() {
     setReadMore(readMore => !readMore)
@@ -17,8 +17,8 @@ function About() {
 
         <div className="about-content">
 
-        <h5>Full-stack Software Engineer with extensive background in education and web-development. 
-        Seeking opportunities to contribute and develop my skills in a challenging environment. </h5> 
+        <h4>Full-stack Software Engineer with extensive background in education and web-development. 
+        Seeking opportunities to contribute and develop my skills in a challenging environment. </h4> 
         <p>
             As an alumni of the Yale School of Music, I understand the importance of detail-oriented work
             as well as the purusit of perfection. I thrive in a fast-paced, highly engaging work enviroment filled with collaberation, 

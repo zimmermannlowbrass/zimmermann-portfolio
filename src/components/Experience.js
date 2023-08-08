@@ -15,9 +15,7 @@ import "../stylesheets/experience.css"
 function Experience() {
     return (
         <section id="experience">
-        <h5>What Skills I Have</h5>
-        <h2>Languages, Frameworks, & Tools</h2>
-        
+        <h2>Languages, Frameworks, & Tools</h2>        
         <div className="experience__container">
           <div className="experience__languages">
             <h3>Languages</h3>
