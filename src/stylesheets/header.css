@@ -20,7 +20,7 @@
 
 .my-photo-container {
   padding-bottom: 2rem;
-  animation: fadeIn 3s;
+  animation: fadeIn 5s;
 }
 
 @keyframes fadeIn {

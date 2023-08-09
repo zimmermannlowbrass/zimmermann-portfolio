@@ -5,6 +5,7 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/Contact';
+import Education from './components/Education';
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Portfolio /> 
       <Experience />
+      <Education />
       <Contact /> 
       <h5>© James Zimmermann 2023</h5>    
     </div>

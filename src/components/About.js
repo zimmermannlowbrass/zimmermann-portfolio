@@ -11,7 +11,7 @@ function About() {
 
   return (
     <section id="about">
-      <h2>My Story</h2>
+      <h2>About Me</h2>
 
       <div className="about-container">
 
