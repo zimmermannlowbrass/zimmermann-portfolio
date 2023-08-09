@@ -1,8 +1,8 @@
 .experience__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    margin: 2rem;
+    gap: 1rem;
+    margin: 1rem;
 }
 
 .experience__container > div {
@@ -23,7 +23,7 @@
 .experience__content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(115px, 1fr));
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .experience__details {
@@ -48,7 +48,7 @@
     }
 
     .experience__container > div {
-        width: 80%;
+        width: 60%;
         padding: 2rem;
         margin: 0 auto;
     }

@@ -20,7 +20,15 @@
 
 .my-photo-container {
   padding-bottom: 2rem;
+  animation: fadeIn 3s;
 }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  50% { opacity: .5; }
+  100% { opacity: 1; }
+}
+
 
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) ============== */
 /* @media screen and (max-width: 1024px) {

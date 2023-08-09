@@ -1,0 +1,101 @@
+.container.contact__container {
+    display: grid;
+    margin:  auto;
+    width: 50%
+}
+
+.contact__options {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding-bottom: 4rem;
+    margin: 1rem;
+}
+
+.contact__option {
+    background-color: rgb(20, 116, 116);
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    width: 70%;
+    box-shadow: 10px 5px 5px 5px rgb(210, 255, 212);
+}
+
+.contact__option-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact__option a {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+.profile-name {
+    color: var(--color-bg-variant);
+}
+/* =============== FORM ================== */
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: var(--color-white);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.btn {
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+::placeholder {
+    color: var(--color-light)
+}
+
+
+/* =========== MEDIA QUERIES (MEDIUM DEVICES) ============== */
+@media screen and (max-width: 1024px) {
+    .container.contact__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .contact__options {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+/* =========== MEDIA QUERIES (SMALL DEVICES) ============== */
+@media screen and (max-width: 600px) {
+    .container.contact__container {
+        display: flex;
+        flex-direction: column;
+        width: var(--container-width-sm);
+    }
+
+    .contact__options {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+        justify-content: center;
+        width: 100%;
+    }
+}

@@ -3,10 +3,9 @@ import {AiOutlineConsoleSql, AiFillHtml5} from "react-icons/ai"
 import {DiJavascript1, DiPython, DiCss3, DiReact, DiPostgresql} from "react-icons/di"
 import {TbFlask} from "react-icons/tb"
 import {SiSqlite,
-  SiGithubactions, SiRender, SiGooglemaps, SiMta} from "react-icons/si"
-import {FiTarget} from "react-icons/fi"
+  SiGithubactions, SiRender, SiGooglemaps, SiMta, SiMicrosoftexcel} from "react-icons/si"
+import {FiDatabase, FiTarget} from "react-icons/fi"
 import { SiRedux } from "react-icons/si";
-import {FaDocker} from 'react-icons/fa'
 import {PiFileSqlFill} from 'react-icons/pi'
 import {BsGit} from 'react-icons/bs'
 
@@ -105,9 +104,9 @@ function Experience() {
                 </div>
               </article>
               <article className="experience__details">
-                <FaDocker className="experience__details-icon" />
+                <SiMicrosoftexcel className="experience__details-icon" />
                 <div>
-                  <p>Docker</p>
+                  <p>Microsoft Excel</p>
                 </div>
               </article>
               <article className="experience__details">
@@ -123,15 +122,21 @@ function Experience() {
                 </div>
               </article>
               <article className="experience__details">
-                <SiMta className="experience__details-icon" />
-                <div>
-                  <p>MTA</p>
-                </div>
-              </article>
-              <article className="experience__details">
                 <SiRender className="experience__details-icon" />
                 <div>
                   <p>Render</p>
+                </div>
+              </article>
+              <article className="experience__details">
+                <FiDatabase className="experience__details-icon" />
+                <div>
+                  <p>APIs</p>
+                </div>
+              </article>
+              <article className="experience__details">
+                <SiMta className="experience__details-icon" />
+                <div>
+                  <p>MTA Data</p>
                 </div>
               </article>
               <article className="experience__details">
