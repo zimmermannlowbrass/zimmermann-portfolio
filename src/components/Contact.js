@@ -7,7 +7,7 @@ import "../stylesheets/contact.css"
 
 function Contact () {
     return (
-        <section id="contact">
+        <section className="contact" id="contact">
             <h2>Contact Me</h2>
             <div className="container contact__container">
                 <div className="contact__options">

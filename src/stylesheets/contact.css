@@ -1,7 +1,7 @@
 .container.contact__container {
     display: grid;
     margin:  auto;
-    width: 50%
+    width: 50%;
 }
 
 .contact__options {

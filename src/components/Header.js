@@ -1,6 +1,6 @@
 import React from "react";
 
-import ME from "../images/Headshot.jpeg"
+import ME from "../images/Headshot2.png"
 
 import "../stylesheets/header.css"
 import { HiOutlineMail } from "react-icons/hi";
