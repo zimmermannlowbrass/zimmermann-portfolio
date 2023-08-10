@@ -17,8 +17,11 @@ function Header() {
                     <HiOutlineMail className="contact__option-icon" cursor={"pointer"} onClick={() => window.location.href = "mailto:zimmermann.lowbrass@gmail.com"} />
                     <AiOutlineLinkedin className="contact__option-icon" cursor={"pointer"} onClick={() => window.location.href = "https://www.linkedin.com/in/jamesaidanzimmermann/"}/>
                 </h1>
-                <h3>
-                    Full Stack Software Engineer
+                <h3 className="software-engineer">
+                    <span style={{ "--i": 1 }}>Full </span>
+                    <span style={{ "--i": 2 }}>Stack </span>
+                    <span style={{ "--i": 3 }}>Software </span>
+                    <span style={{ "--i": 4 }}>Engineer</span>
                 </h3>
                 <br/>
                 <div className="my-photo-container">

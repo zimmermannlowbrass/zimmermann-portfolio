@@ -7,6 +7,45 @@
 
 .profile-name {
   color: rgb(2, 69, 9);
+  animation-name: spin;
+  animation-timing-function: 2.5s;
+  animation-iteration-count: 1;
+  animation-duration: 5s;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(-360deg);
+  }
+}
+
+
+
+
+.software-engineer span {
+  animation: anim-flipX  2s infinite;
+  animation-delay: calc(.2s * var(--i));
+  animation-iteration-count: 3;
+}
+
+@keyframes anim-flipX {
+  0% {
+    opacity: 0;
+    transform: rotateX(90def);
+  }
+  50% {
+    opacity: 1;
+    color: indianred;
+    transform: rotateX(720deg);
+  }
+  100% {
+    /* animate nothing to pause animation at the end */
+    opacity: 1;
+    transform: rotateX(720deg);
+  }
 }
 
 .header__container {
@@ -31,14 +70,14 @@
 
 
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) ============== */
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .my-photo {
     height: 500px;
     width: 650px;
     border-radius: 25px;
     box-shadow: -4px 3px 15px 17px rgba(194,194,194,1);
 }
-} */
+}
 
 /* =========== MEDIA QUERIES (SMALL DEVICES) ============== */
 @media screen and (max-width: 600px) {
