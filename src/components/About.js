@@ -21,7 +21,7 @@ function About() {
         Seeking opportunities to contribute and develop my skills in a challenging environment. </h4> 
         <h6>
             As an alumni of the Yale School of Music, I understand the importance of detail-oriented work
-            as well as the pursuit of perfection. I thrive in a fast-paced, highly engaging work enviroment filled with collaberation, 
+            as well as the pursuit of perfection. I thrive in a fast-paced, highly engaging work environment filled with collaboration, 
             and I embrace all opportunities with an eagerness to learn.
             Seeking opportunities in front-end, back-end, or full-stack web development.
         </h6>
