@@ -97,5 +97,6 @@ textarea {
         gap: 1.2rem;
         justify-content: center;
         width: 100%;
+        align-items: center;
     }
 }

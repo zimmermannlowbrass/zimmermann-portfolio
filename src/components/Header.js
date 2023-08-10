@@ -1,6 +1,7 @@
 import React from "react";
 
 import ME from "../images/Headshot2.png"
+import Resume from "../resume/James_Zimmermann_Resume.pdf"
 
 import "../stylesheets/header.css"
 import { HiOutlineMail } from "react-icons/hi";
@@ -23,6 +24,7 @@ function Header() {
                 <div className="my-photo-container">
                     <img src={ME} alt="James Aidan Zimmermann" lazy="true" className="my-photo"/>
                 </div>
+                <a href={Resume} download className="btn btn-primary">Download Resume</a>
             </div>
         </header>
     )
