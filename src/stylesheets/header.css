@@ -1,8 +1,15 @@
 .my-photo {
     height: 500px;
     width: 750px;
-    border-radius: 25px;
+    border-radius: 200px;
     box-shadow: -4px 3px 15px 17px rgba(194,194,194,1);
+    animation: mover 1s infinite alternate;
+
+}
+
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
 }
 
 .profile-name {

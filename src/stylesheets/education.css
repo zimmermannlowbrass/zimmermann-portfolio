@@ -15,6 +15,10 @@
     height: fit-content;
 }
 
+.education__container > div:hover {
+    opacity: .8;
+}
+
 .education__container > div h3 {
     text-align: center;
     margin-bottom: 2rem;

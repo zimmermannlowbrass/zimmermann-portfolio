@@ -1,15 +1,29 @@
+#contact {
+    background-image: url(../images/Contact_Pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: -4px 3px 15px 17px rgba(194,194,194,1);
+    width: 55%;
+    justify-items: center;
+    border-radius: 100px;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-top: 0rem;
+}
+
 .container.contact__container {
     display: grid;
     margin:  auto;
-    width: 50%;
 }
 
 .contact__options {
     display: flex;
     gap: 2rem;
-    justify-content: center;
-    padding-bottom: 4rem;
+    justify-content: right;
+    padding-bottom: 3.5rem;
+    padding-top: 3.5rem;
     margin: 1rem;
+    margin-right: 3rem;
 }
 
 .contact__option {
@@ -18,7 +32,7 @@
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
-    width: 70%;
+    width: fit-content;
     box-shadow: 10px 5px 5px 5px rgb(210, 255, 212);
 }
 
@@ -74,13 +88,6 @@ textarea {
         gap: 2rem;
     }
 
-    .contact__options {
-        display: flex;
-        flex-direction: column;
-        gap: 1.2rem;
-        justify-content: center;
-        width: 100%;
-    }
 }
 
 /* =========== MEDIA QUERIES (SMALL DEVICES) ============== */
@@ -96,7 +103,12 @@ textarea {
         flex-direction: column;
         gap: 1.2rem;
         justify-content: center;
-        width: 100%;
         align-items: center;
+        opacity: 1;
+    }
+
+    #contact {
+        background: none;
+        box-shadow: none;
     }
 }

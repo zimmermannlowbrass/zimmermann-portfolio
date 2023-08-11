@@ -7,8 +7,10 @@ import "../stylesheets/contact.css"
 
 function Contact () {
     return (
+        <>
+        <h2>Contact Me</h2>
+        <br/>
         <section className="contact" id="contact">
-            <h2>Contact Me</h2>
             <div className="container contact__container">
                 <div className="contact__options">
                     <article className="contact__option">
@@ -19,7 +21,8 @@ function Contact () {
                     <a href="mailto:zimmermann.lowbrass@gmail.com" target="_blank" rel="noreferrer" className="btn btn-primary">Send a message</a>
                     </div>
                     </article>
-            
+                </div>
+                <div className="contact__options">
                     <article className="contact__option">
                     <AiOutlineLinkedin className="contact__option-icon" />
                     <h4>LinkedIn</h4>
@@ -31,6 +34,7 @@ function Contact () {
                 </div>
             </div>
         </section>
+        </>
       )
 }
 
