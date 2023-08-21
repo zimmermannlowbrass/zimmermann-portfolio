@@ -1,0 +1,29 @@
+.nav-bar {
+    float: left;
+    display: grid;
+    margin-top: 10vh;
+    position: absolute;
+    z-index: 99;
+}
+
+.nav-bar > button {
+    margin: 1.5rem;
+    padding: .5rem;
+    background: rgb(10, 68, 68);
+    border-radius: 25px;
+}
+
+.nav-bar > button > a {
+    color: rgb(44, 238, 238);
+}
+
+@media screen and (max-width: 600px) {
+    .nav-bar {
+        margin-top: 4vh;
+    }
+    .nav-bar > button {
+        margin: .5rem;
+        padding: .5rem;
+    }
+    
+}

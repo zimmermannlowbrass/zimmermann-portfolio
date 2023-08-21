@@ -6,6 +6,7 @@ import Resume from "../resume/James_Zimmermann_Resume.pdf"
 import "../stylesheets/header.css"
 import { HiOutlineMail } from "react-icons/hi";
 import { AiOutlineLinkedin } from "react-icons/ai";
+import NavBar from "./NavBar";
 
 function Header() {
     
@@ -23,6 +24,7 @@ function Header() {
                     <span style={{ "--i": 3 }}>Software </span>
                     <span style={{ "--i": 4 }}>Engineer</span>
                 </h3>
+                <NavBar/>
                 <br/>
                 <div className="my-photo-container">
                     <img src={ME} alt="James Aidan Zimmermann" lazy="true" className="my-photo"/>

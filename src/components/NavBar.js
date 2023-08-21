@@ -1,16 +1,19 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import {useState} from "react"
+// import { NavLink } from "react-router-dom";
+// import {useState} from "react"
 
-
+import "../stylesheets/navbar.css"
 
 function NavBar() {
-    const [activeNav, setActiveNav] = useState("#")
+    // const [activeNav, setActiveNav] = useState("#")
 
     return (
-        <nav>
-  
-        </nav>
+        <div className="nav-bar">
+                <button><a href="/#about">About</a></button>
+                <button><a href="/#projects">Projects</a></button>
+                <button><a href="/#skills">Skills</a></button>
+                <button><a href="/#contact">Contact</a></button>
+        </div>
     )
 }
 

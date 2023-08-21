@@ -13,7 +13,7 @@ import "../stylesheets/experience.css"
 
 function Experience() {
     return (
-        <section id="experience">
+        <section id="skills">
         <h2>Languages, Frameworks, & Tools</h2>        
         <div className="experience__container">
           <div className="experience__languages">
