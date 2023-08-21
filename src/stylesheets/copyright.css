@@ -1,0 +1,10 @@
+.copyright {
+    margin: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+    .copyright {
+        margin: 1rem;
+        font-size: xx-large;
+    }
+}

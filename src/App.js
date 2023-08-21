@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 import Education from './components/Education';
 import Nav from './components/Nav';
 
-
+import "./stylesheets/copyright.css"
 
 function App() {
   return (
@@ -20,9 +20,7 @@ function App() {
       <Experience />
       <Education />
       <Contact />  
-      <br/>
-      <br/>
-      <h5 style={{marginTop: "2rem"}}>© James Zimmermann 2023</h5>  
+      <h5 className='copyright'>© James Zimmermann 2023</h5>  
     </div>
   );
 }
