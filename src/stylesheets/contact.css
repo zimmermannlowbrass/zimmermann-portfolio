@@ -15,6 +15,8 @@
 .container.contact__container {
     display: grid;
     margin:  auto;
+    justify-content: right;
+
 }
 
 .contact__options {
@@ -104,7 +106,7 @@ textarea {
         flex-direction: column;
         gap: 1.2rem;
         justify-content: center;
-        align-items: center;
+        /* align-items: center; */
         opacity: 1;
     }
 

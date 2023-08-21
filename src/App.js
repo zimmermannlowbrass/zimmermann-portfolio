@@ -20,7 +20,9 @@ function App() {
       <Experience />
       <Education />
       <Contact />  
-      <h5>© James Zimmermann 2023</h5>  
+      <br/>
+      <br/>
+      <h5 style={{marginTop: "2rem"}}>© James Zimmermann 2023</h5>  
     </div>
   );
 }

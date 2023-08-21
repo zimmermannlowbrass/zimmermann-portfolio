@@ -55,6 +55,20 @@
 
 }
 
+/* =========== MEDIA QUERIES (MEDIUM DEVICES) ============== */
+@media screen and (max-width: 1024px) {
+    .education__container {
+        display: inline-grid;
+        gap: 1rem;
+    }
+
+    .education__container > div {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+
+  }
+
 
 /* =========== MEDIA QUERIES (SMALL DEVICES) ============== */
 @media screen and (max-width: 600px) {
