@@ -11,6 +11,12 @@
     padding: .5rem;
     background: rgb(10, 68, 68);
     border-radius: 25px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.nav-bar >button:hover {
+    background: rgb(6, 41, 41);
+    transform: scale(1.05);
 }
 
 .nav-bar > button > a {
