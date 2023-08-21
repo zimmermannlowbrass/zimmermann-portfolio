@@ -17,7 +17,7 @@
   animation-name: spin;
   animation-timing-function: 2.5s;
   animation-iteration-count: 1;
-  animation-duration: 5s;
+  animation-duration: 4s;
 }
 
 @keyframes spin {
@@ -35,7 +35,7 @@
 .software-engineer span {
   animation: anim-flipX  2s infinite;
   animation-delay: calc(.2s * var(--i));
-  animation-iteration-count: 3;
+  animation-iteration-count: 2;
 }
 
 @keyframes anim-flipX {
