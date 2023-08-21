@@ -83,5 +83,6 @@ section {
   :root {
       --swiper-navigation-size: 20px;
       text-align: center;
+      width: 100vh;
   }
 }
