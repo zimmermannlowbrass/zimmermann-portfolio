@@ -15,6 +15,7 @@
 
 .nav-bar > button > a {
     color: rgb(44, 238, 238);
+    font-family: 'BioRhyme';
 }
 
 @media screen and (max-width: 600px) {

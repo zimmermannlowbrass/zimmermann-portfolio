@@ -23,8 +23,7 @@
     display: flex;
     gap: 2rem;
     justify-content: right;
-    padding-bottom: 3.5rem;
-    padding-top: 3.5rem;
+    padding-top: 1.5rem;
     margin: 1rem;
     margin-right: 3rem;
 }
@@ -37,6 +36,10 @@
     transition: var(--transition);
     width: fit-content;
     box-shadow: 10px 5px 5px 5px rgb(210, 255, 212);
+}
+
+.contact__option > h6 {
+    margin: 1rem;
 }
 
 .contact__option-icon {
@@ -70,13 +73,10 @@ textarea {
     border: 2px solid var(--color-primary-variant);
     resize: none;
     color: var(--color-white);
-    font-family: 'Poppins', sans-serif;
-
 }
 
 .btn {
     padding: 1rem;
-    font-family: 'Poppins', sans-serif;
 }
 
 ::placeholder {
