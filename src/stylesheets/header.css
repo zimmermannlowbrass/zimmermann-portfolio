@@ -65,14 +65,14 @@
 
 .my-photo-container {
   padding-bottom: 2rem;
-  animation: fadeIn 5s;
+  /* animation: fadeIn 5s; */
 }
 
-@keyframes fadeIn {
+/* @keyframes fadeIn {
   0% { opacity: 0; }
   50% { opacity: .5; }
   100% { opacity: 1; }
-}
+} */
 
 
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) ============== */
